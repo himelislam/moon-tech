@@ -1,7 +1,7 @@
 import React from "react";
 import { BiListPlus } from "react-icons/bi";
 import { useProducts } from "../context/ProductProvider";
-import { actionTypes } from "../state/ProductState/actionTypes";
+import { actionTypes } from "../state/ProductsStates/actionTypes";
 
 const ProductCard = ({ product }) => {
   const { dispatch } = useProducts();
